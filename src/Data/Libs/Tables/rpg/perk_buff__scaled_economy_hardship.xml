@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora"
+          xsi:noNamespaceSchemaLocation="../database.xsd">
+
+    <perk_buffs version="1">
+
+        <!-- Touch Economy Level 50% -->
+        <perk_buff
+                perk_id="c0c0db5e-e001-405f-bbb5-01488eae60b2"
+                buff_id="f14fbe45-5367-4678-85c2-3eef7d894251"
+        />
+
+        <!-- Touch Economy Level 75% -->
+        <perk_buff
+                perk_id="b2c3d4e5-f678-9012-bcde-f23456789012"
+                buff_id="a4b8f9e2-1c7d-43b5-9f8a-6d2e5b3c0491"
+        />
+
+        <!-- Touch Economy Level 80% -->
+        <perk_buff
+                perk_id="34894718-7947-4ce6-9692-439f8ed923bc"
+                buff_id="da003c9b-d62a-48d0-80a4-9f21fd2817bc"
+        />
+
+        <!-- Touch Economy Level 85% -->
+        <perk_buff
+                perk_id="f3459ca0-ff2d-4c76-838f-95210773fc1f"
+                buff_id="f930f7de-bf1b-4d0e-ac45-7e75a153fcfb"
+        />
+
+        <!-- Touch Economy Level 90% -->
+        <perk_buff
+                perk_id="f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff"
+                buff_id="0a80fb5d-a7c8-453d-bc27-aa3665aef95d"
+        />
+
+        <!-- Touch Economy Level 95% -->
+        <perk_buff
+                perk_id="ca7f6758-7218-4048-8492-33246df5948f"
+                buff_id="f096f85e-59ec-4560-9d95-8c555acbb950"
+        />
+
+    </perk_buffs>
+</database>
