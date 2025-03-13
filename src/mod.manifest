@@ -10,6 +10,5 @@
     </info>
       <supports>
         <kcd_version>1.2</kcd_version>
-        <kcd_version>1.2.*</kcd_version>
       </supports>
 </kcd_mod>
