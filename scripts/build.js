@@ -95,7 +95,7 @@ function prepareBuild() {
     const isProduction = environment === "prod";
     const luaContent = readFileSync(luaFilePath, "utf8")
         .replace(/modName = "([^"]+)"/, `modName = "${modName}"`)
-        .replace(/isProduction = "([^"]+)"/, `isProduction = "${isProduction}"`);
+        .replace(/isProduction\s*=\s*(true|false)/, `isProduction = ${isProduction}`);
     writeFileSync(luaFilePath, luaContent, "utf8");
     console.log("Updated main.lua");
 }
