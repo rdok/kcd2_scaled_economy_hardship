@@ -11,27 +11,28 @@ For Henry, the road to survival grows harsher with each passing day. What initia
 
 [size=5]Showcase[/size]
 
+[url=https://www.nexusmods.com/kingdomcomedeliverance2/mods/831][img]https://github.com/rdok/kcd2_scaled_economy_hardship/blob/main/documentation/showcase.png?raw=true[/img][/url]
+
+
 [quote]
 These prices may vary if you have additional or fewer perks that further modify these values. However, the pattern remains similar.
 [/quote]
 [size=4]Common Longsword[/size]
-[i](Self Forged, Highest Rank, 100% Condition, Original Selling Price: 331.2, Original Buying Price: 927)[/i]
+[i]Self Forged, Highest Rank, 100% Condition[/i]
 
 [list]
-[*] [b]Base Game (No Mod)[/b] → Selling: 331.2 | Buying: 927 | BMA: 0.0 | SMA: 0.0
-[*] [b]Level ≤5[/b] → Selling: 165.6 (-50%) | Buying: 1390.5 (+50%) | BMA: -0.5 | SMA: +0.5
-[*] [b]Level ≤10[/b] → Selling: 132.48 (-60%) | Buying: 1854 (+100%) | BMA: -0.6 | SMA: +1.0
-[*] [b]Level ≤15[/b] → Selling: 99.36 (-70%) | Buying: 2317.5 (+150%) | BMA: -0.7 | SMA: +1.5
-[*] [b]Level ≤20[/b] → Selling: 66.24 (-80%) | Buying: 2781 (+200%) | BMA: -0.8 | SMA: +2.0
-[*] [b]Level ≤30[/b] → Selling: 33.12 (-90%) | Buying: 3244.5 (+250%) | BMA: -0.9 | SMA: +2.5
+[*] [b]Base Game[/b] → Selling: 331.2         | Buying: 927            | BMA: 0.0 | SMA: 0.0
+[*] [b]Level ≤5[/b]→ Selling: 165.6 (-50%)  | Buying: 1390.5 (+50%)  | BMA: -0.5 | SMA: +0.5
+[*] [b]Level ≤10[/b] → Selling: 132.48 (-60%) | Buying: 1854 (+100%)   | BMA: -0.6 | SMA: +1.0
+[*] [b]Level ≤15[/b] → Selling: 99.36 (-70%)  | Buying: 2317.5 (+150%) | BMA: -0.7 | SMA: +1.5
+[*] [b]Level ≤20[/b] → Selling: 66.24 (-80%)  | Buying: 2781 (+200%)   | BMA: -0.8 | SMA: +2.0
+[*] [b]Level ≤30[/b] → Selling: 33.12 (-90%)  | Buying: 3244.5 (+250%) | BMA: -0.9 | SMA: +2.5
 [/list]
 
 [size=4]Cooked Chicken[/size]
-[i](Original Selling Price: 2.3, Original Buying Price: 8.4)[/i]
-
 [list]
-[*] [b]Base Game (No Mod)[/b] → Selling: 2.3 | Buying: 8.4 | BMA: 0.0 | SMA: 0.0
-[*] [b]Level ≤5[/b] → Selling: 1.15 (-50%) | Buying: 12.6 (+50%) | BMA: -0.5 | SMA: +0.5
+[*] [b]Base Game[/b] → Selling: 2.3         | Buying: 8.4 | BMA: 0.0 | SMA: 0.0
+[*] [b]Level ≤5[/b]→ Selling: 1.15 (-50%) | Buying: 12.6 (+50%) | BMA: -0.5 | SMA: +0.5
 [*] [b]Level ≤10[/b] → Selling: 0.92 (-60%) | Buying: 16.8 (+100%) | BMA: -0.6 | SMA: +1.0
 [*] [b]Level ≤15[/b] → Selling: 0.69 (-70%) | Buying: 21 (+150%) | BMA: -0.7 | SMA: +1.5
 [*] [b]Level ≤20[/b] → Selling: 0.46 (-80%) | Buying: 25.2 (+200%) | BMA: -0.8 | SMA: +2.0
@@ -39,11 +40,9 @@ These prices may vary if you have additional or fewer perks that further modify 
 [/list]
 
 [size=4]Henry’s Saviour Schnapps[/size]
-[i](Original Selling Price: 11.1, Original Buying Price: 46.7)[/i]
-
 [list]
-[*] [b]Base Game (No Mod)[/b] → Selling: 11.1 | Buying: 46.7 | BMA: 0.0 | SMA: 0.0
-[*] [b]Level ≤5[/b] → Selling: 5.55 (-50%) | Buying: 70.05 (+50%) | BMA: -0.5 | SMA: +0.5
+[*] [b]Base Game[/b] → Selling: 11.1        | Buying: 46.7 | BMA: 0.0 | SMA: 0.0
+[*] [b]Level ≤5[/b] → Selling: 5.55 (-50%)  | Buying: 70.05 (+50%) | BMA: -0.5 | SMA: +0.5
 [*] [b]Level ≤10[/b] → Selling: 4.44 (-60%) | Buying: 93.4 (+100%) | BMA: -0.6 | SMA: +1.0
 [*] [b]Level ≤15[/b] → Selling: 3.33 (-70%) | Buying: 116.75 (+150%) | BMA: -0.7 | SMA: +1.5
 [*] [b]Level ≤20[/b] → Selling: 2.22 (-80%) | Buying: 140.1 (+200%) | BMA: -0.8 | SMA: +2.0
@@ -51,13 +50,13 @@ These prices may vary if you have additional or fewer perks that further modify 
 [/list]
 
 [size=4]Hourglass Gauntlets[/size]
-[i](Level 3, 100% Condition, Bootstrapped, Original Selling Price: 211.5, Original Buying Price: 1128.1)[/i]
+Level 3, 100% Condition, Bootstrapped
 
 [list]
-[*] [b]Base Game (No Mod)[/b] → Selling: 211.5 | Buying: 1128.1 | BMA: 0.0 | SMA: 0.0
+[*] [b]Base Game[/b] → Selling: 211.5        | Buying: 1128.1 | BMA: 0.0 | SMA: 0.0
 [*] [b]Level ≤5[/b] → Selling: 105.75 (-50%) | Buying: 1692.15 (+50%) | BMA: -0.5 | SMA: +0.5
-[*] [b]Level ≤10[/b] → Selling: 84.6 (-60%) | Buying: 2256.2 (+100%) | BMA: -0.6 | SMA: +1.0
+[*] [b]Level ≤10[/b] → Selling: 84.6 (-60%)  | Buying: 2256.2 (+100%) | BMA: -0.6 | SMA: +1.0
 [*] [b]Level ≤15[/b] → Selling: 63.45 (-70%) | Buying: 2820.25 (+150%) | BMA: -0.7 | SMA: +1.5
-[*] [b]Level ≤20[/b] → Selling: 42.3 (-80%) | Buying: 3384.3 (+200%) | BMA: -0.8 | SMA: +2.0
+[*] [b]Level ≤20[/b] → Selling: 42.3 (-80%)  | Buying: 3384.3 (+200%) | BMA: -0.8 | SMA: +2.0
 [*] [b]Level ≤30[/b] → Selling: 21.15 (-90%) | Buying: 3948.35 (+250%) | BMA: -0.9 | SMA: +2.5
 [/list]
