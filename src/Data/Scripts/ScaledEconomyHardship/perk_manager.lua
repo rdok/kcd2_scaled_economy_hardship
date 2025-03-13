@@ -9,16 +9,23 @@ local PerkManager = {
 }
 
 PerkManager.perks = {
-    { name = "tougher_economy_50_percent", level = 5, id = "a1b2c3d4-e5f6-7890-abcd-ef1234567890" },
-    { name = "tougher_economy_75_percent", level = 10, id = "b2c3d4e5-f678-9012-bcde-f23456789012" },
-    { name = "tougher_economy_80_percent", level = 15, id = "c3d4e5f6-7890-1234-cdef-345678901234" },
-    { name = "tougher_economy_85_percent", level = 20, id = "d4e5f678-9012-3456-def0-456789012345" },
-    { name = "tougher_economy_90_percent", level = 25, id = "h3d6e9f2-8c1b-4d1a-9e7f-0b2a4c5d3816" },
-    { name = "tougher_economy_95_percent", level = 30, id = "j7f0c4b9-5e2d-4d1a-8b3e-6a9f2c0d5718" }
+    { name = "tougher_economy_dawn_of_want", level = 5, id = "c0c0db5e-e001-405f-bbb5-01488eae60b2" },
+    { name = "tougher_economy_shadow_of_scarcity", level = 10, id = "b2c3d4e5-f678-9012-bcde-f23456789012" },
+    { name = "tougher_economy_blight_of_trade", level = 15, id = "34894718-7947-4ce6-9692-439f8ed923bc" },
+    { name = "tougher_economy_reign_of_ruin", level = 20, id = "f3459ca0-ff2d-4c76-838f-95210773fc1f" },
+    { name = "tougher_economy_fall_of_plenty", level = 25, id = "f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff" },
 }
 
 function PerkManager:init()
     log:info("Started init")
+
+    for _, perk in pairs(self.perks) do
+        log:info("Removing perk with id " .. perk.id)
+        _G.player.soul:RemovePerk(perk.id)
+    end
+
+    self:update_perk()
+
     self.timer_id = Script.SetTimer(self.check_interval, function()
         self:update_perk()
     end)
@@ -43,15 +50,14 @@ function PerkManager:update_perk()
 
     local new_perk = nil
 
-    -- Find the best perk the player qualifies for (highest level ≤ player's level)
     for _, perk in pairs(self.perks) do
         if max_perk_level >= perk.level and (not new_perk or perk.level > new_perk.level) then
             new_perk = perk
         end
     end
 
-    local activePerkIsStale =  self.applied_perk_id ~= new_perk.id
-    --local hasPerk = player.soul:HasPerk(best_perk.perk_id, false);
+    local activePerkIsStale = self.applied_perk_id ~= new_perk.id
+    --local activePerkIsStale = player.soul:HasPerk(new_perk.perk_id, false);
     if new_perk and activePerkIsStale then
         log:info("Updating to " .. new_perk.name .. " at level " .. new_perk.level)
         self:clear_active_perk()
@@ -66,6 +72,7 @@ function PerkManager:update_perk()
     log:info("Next check scheduled")
 end
 
-_G.ScaledEconomyHardship.PerkManager = PerkManager
+_G.ScaledEconomyHardship.PerkManager = _G.ScaledEconomyHardship.PerkManager
+        or PerkManager
 
 return PerkManager
