@@ -24,6 +24,7 @@ function PerkManager:init()
         _G.player.soul:RemovePerk(perk.id)
     end
 
+    self:clear_active_perk()
     self:update_perk()
 
     self.timer_id = Script.SetTimer(self.check_interval, function()
