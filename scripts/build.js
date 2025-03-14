@@ -78,6 +78,17 @@ function prepareBuild() {
     }
     cpSync(manifestFile, join(temporaryBuildDirectory, "mod.manifest"));
     console.log("Copied mod.manifest to temp_build");
+
+    // Explicitly copy modding_eula.txt if it exists
+    const eulaFile = join(sourceDirectory, "modding_eula.txt");
+    const destEulaFile = join(temporaryBuildDirectory, "modding_eula.txt");
+    if (existsSync(eulaFile)) {
+        cpSync(eulaFile, destEulaFile);
+        console.log(`Copied modding_eula.txt to ${destEulaFile}`);
+    } else {
+        console.warn(`Warning: modding_eula.txt not found at ${eulaFile}`);
+    }
+
     console.log("temp_build contents after copy:", readdirSync(temporaryBuildDirectory));
 
     const luaFilePath = join(
@@ -242,6 +253,7 @@ function packData() {
 
     // Remove any stray .xml files in Localization/
     const localizationContents = readdirSync(localizationBaseDir);
+    console.log(`Localization contents before cleanup: ${localizationContents}`);
     localizationContents.forEach(item => {
         const fullPath = join(localizationBaseDir, item);
         if (!item.endsWith(".pak") && statSync(fullPath).isFile()) {
@@ -249,6 +261,7 @@ function packData() {
             console.log(`Removed stray file: ${fullPath}`);
         }
     });
+    console.log(`Localization contents after cleanup: ${readdirSync(localizationBaseDir)}`);
 }
 
 function packMod(outputFileName) {
@@ -266,6 +279,7 @@ function packMod(outputFileName) {
     console.log(`Localization contents before zipping: ${readdirSync(localizationBaseDir)}`);
     const dataBaseDir = join(temporaryBuildDirectory, "Data");
     console.log(`Data contents before zipping: ${readdirSync(dataBaseDir)}`);
+    console.log(`temp_build contents before zipping: ${readdirSync(temporaryBuildDirectory)}`);
 
     const sevenZipBinary = join(
         rootDirectory,
@@ -274,9 +288,14 @@ function packMod(outputFileName) {
         "linux",
         "7zzs",
     );
-    const sevenZipCommand = `"${sevenZipBinary}" a -r "${finalZipPath}" "${join(temporaryBuildDirectory, "Data")}" "${join(temporaryBuildDirectory, "Localization")}" "${join(temporaryBuildDirectory, "mod.manifest")}"`;
+    const sevenZipCommand = `"${sevenZipBinary}" a -r "${finalZipPath}" "${join(temporaryBuildDirectory, "Data")}" "${join(temporaryBuildDirectory, "Localization")}" "${join(temporaryBuildDirectory, "mod.manifest")}" "${join(temporaryBuildDirectory, "modding_eula.txt")}"`;
     console.log(`Zipping final mod: ${sevenZipCommand}`);
-    execSync(sevenZipCommand);
+    try {
+        execSync(sevenZipCommand, { stdio: "inherit" });
+    } catch (error) {
+        console.error(`ERROR: Failed to create zip file: ${error.message}`);
+        process.exit(1);
+    }
 
     console.log("Cleaning up temp_build...");
     rmSync(temporaryBuildDirectory, { recursive: true, force: true });
