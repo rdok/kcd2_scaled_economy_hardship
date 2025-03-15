@@ -298,7 +298,6 @@ function packMod(outputFileName) {
     }
 
     console.log("Cleaning up temp_build...");
-    rmSync(temporaryBuildDirectory, { recursive: true, force: true });
     console.log(`Built ${outputFileName} mod: ${finalZipPath}`);
     console.log(`ZIP_FILE:${finalZipPath}`);
     return finalZipPath;
