@@ -9,11 +9,12 @@ local PerkManager = {
 }
 
 PerkManager.perks = {
-    { name = "tougher_economy_dawn_of_want", level = 5, id = "c0c0db5e-e001-405f-bbb5-01488eae60b2" },
-    { name = "tougher_economy_shadow_of_scarcity", level = 10, id = "b2c3d4e5-f678-9012-bcde-f23456789012" },
-    { name = "tougher_economy_blight_of_trade", level = 15, id = "34894718-7947-4ce6-9692-439f8ed923bc" },
-    { name = "tougher_economy_reign_of_ruin", level = 20, id = "f3459ca0-ff2d-4c76-838f-95210773fc1f" },
-    { name = "tougher_economy_fall_of_plenty", level = 25, id = "f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff" },
+    { name = "dawn_of_want", max_level = 5, id = "c0c0db5e-e001-405f-bbb5-01488eae60b2" },
+    { name = "shadow_of_scarcity", max_level = 10, id = "b2c3d4e5-f678-9012-bcde-f23456789012" },
+    { name = "blight_of_trade", max_level = 15, id = "34894718-7947-4ce6-9692-439f8ed923bc" },
+    { name = "reign_of_ruin", max_level = 20, id = "f3459ca0-ff2d-4c76-838f-95210773fc1f" },
+    { name = "fall_of_plenty", max_level = 25, id = "f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff" },
+    { name = "echoes_of_desolation", max_level = 99, id = "9e907773-734e-42f6-806f-ccddfb247ed3" },
 }
 
 function PerkManager:init()
@@ -46,21 +47,26 @@ end
 
 function PerkManager:update_perk()
     log:info("Checking perks for update")
-    local max_perk_level = _G.player.soul:GetDerivedStat("lvl")
-    log:info("Player level is " .. max_perk_level)
+    local main_level = _G.player.soul:GetDerivedStat("lvl")
+    log:info("Player level is " .. main_level)
 
     local new_perk = nil
 
     for _, perk in pairs(self.perks) do
-        if max_perk_level >= perk.level and (not new_perk or perk.level > new_perk.level) then
+        if main_level <= perk.max_level and (not new_perk or perk.max_level > new_perk.max_level) then
             new_perk = perk
+            break
         end
     end
 
-    local activePerkIsStale = self.applied_perk_id ~= new_perk.id
+    log:info("New perk to apply: ", new_perk)
+
+    local active_perk_is_stale = self.applied_perk_id ~= new_perk.id
+    log:info("active_perk_is_stale", active_perk_is_stale)
+
     --local activePerkIsStale = player.soul:HasPerk(new_perk.perk_id, false);
-    if new_perk and activePerkIsStale then
-        log:info("Updating to " .. new_perk.name .. " at level " .. new_perk.level)
+    if new_perk and active_perk_is_stale then
+        log:info("Updating to " .. new_perk.name .. " at level " .. new_perk.max_level)
         self:clear_active_perk()
         _G.player.soul:AddPerk(new_perk.id)
         self.applied_perk_id = new_perk.id
