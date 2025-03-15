@@ -3,4 +3,5 @@ node_modules/
 .idea/
 *.log
 temp_build_localization/
+temp_build/
 .env
