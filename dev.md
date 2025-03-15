@@ -1,5 +1,7 @@
 ## UA Testing
+
 ### Assert next stage perk is applied upon 5/10/15/20/25/30 levels
+
 ```
 # player.soul:AdvanceToStatLevel("strength", 30)
 # player.soul:AdvanceToStatLevel("agility", 23)
@@ -9,5 +11,6 @@
 ```
 
 ## Investigate
+
 sma = sell ma? (% discount on purchases)
 bma = buy ma? (% gain on sell)

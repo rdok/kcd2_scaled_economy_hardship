@@ -6,10 +6,11 @@ For Henry, the road to survival grows harsher with each passing day. What initia
 
 [![Showcase](https://github.com/rdok/kcd2_scaled_economy_hardship/blob/main/documentation/showcase.jpg?raw=true)](https://www.nexusmods.com/kingdomcomedeliverance2/mods/1326)
 
-
 > These prices may vary if you have additional or fewer perks that further modify these values. However, the pattern remains similar.
+
 ### Common Longsword
-*Self Forged, Rank 4, 100% Condition*
+
+_Self Forged, Rank 4, 100% Condition_
 
 ```text
 | Level     | Selling Price  | Buying Price   | BMA    | SMA    |
@@ -23,4 +24,4 @@ For Henry, the road to survival grows harsher with each passing day. What initia
 | 26 - 30   | 16.56  (-95%)  | 4171.5 (+350%) | -0.95  | +3.5   |
 ```
 
-*Levels 1-5 can be useful when using mods that make you start from level 1 instead of the default's game of level 5*
+_Levels 1-5 can be useful when using mods that make you start from level 1 instead of the default's game of level 5_
