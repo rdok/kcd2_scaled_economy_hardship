@@ -18,6 +18,6 @@ prettier-fix:
 	docker compose run --rm ci-cd npm run prettier:fix
 
 docs:
-	docker compose run --rm ci-cd npm run generate_readme
+	docker compose run --rm ci-cd npm run generate_docs
 
 
