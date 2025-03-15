@@ -17,8 +17,6 @@ filePaths.forEach((filePath) => {
 const readmeFile = path.join(__dirname, "..", "readme.md");
 fs.writeFileSync(readmeFile, combinedContent, "utf8");
 
-// Requires https://dotnet.microsoft.com/en-us/download
-// And https://github.com/BUTR/Converter.MarkdownToBBCode
 const readmeFileBbcodenm = path.join(
   __dirname,
   "..",
@@ -26,3 +24,11 @@ const readmeFileBbcodenm = path.join(
   "readme.bbcodenm",
 );
 execSync(`markdown_to_bbcodenm -i ${readmeFile} > ${readmeFileBbcodenm}`);
+
+const faqFile = path.join(__dirname, "..", "documentation", "faq.md");
+const faqFileBbcodenm = path.join(__dirname, "..", "documentation", "faq.bbcodenm");
+execSync(`markdown_to_bbcodenm -i ${faqFile} > ${faqFileBbcodenm}`);
+
+const ideasFile = path.join(__dirname, "..", "documentation", "ideas.md");
+const ideasFileBbcodenm = path.join(__dirname, "..", "documentation", "ideas.bbcodenm");
+execSync(`markdown_to_bbcodenm -i ${ideasFile} > ${ideasFileBbcodenm}`);
