@@ -9,7 +9,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_dawn_of_want_lore_desc</Cell>
-        <Cell>War’s first echoes reach Bohemia, thinning the markets. A farmer sells his extra seed for half a sack of oats, frowning at the empty fields where his sons once played. </Cell>
+        <Cell>War’s first echoes reach Bohemia, thinning the markets. A farmer sells his extra seed for half a sack of oats, frowning at the empty fields where his sons once played.</Cell>
     </Row>
 
     <Row>
@@ -18,11 +18,11 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_shadow_of_scarcity_desc</Cell>
-        <Cell>Goods you sell are worth 75% less, and goods you buy from traders cost 100% more.</Cell>
+        <Cell>Goods you sell are worth 75% less, and goods you buy from traders cost 150% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_shadow_of_scarcity_lore_desc</Cell>
-        <Cell>Fighting spreads, and harvests shrink under smoke. A mother trades her silver brooch—her mother’s last gift—for a small bag of barley, her hands trembling as she counts the grains. </Cell>
+        <Cell>Fighting spreads, and harvests shrink under smoke. A mother trades her silver brooch—her mother’s last gift—for a small bag of barley, her hands trembling as she counts the grains.</Cell>
     </Row>
 
     <Row>
@@ -31,11 +31,11 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_blight_of_trade_desc</Cell>
-        <Cell>Goods you sell are worth 80% less, and goods you buy from traders cost 150% more.</Cell>
+        <Cell>Goods you sell are worth 80% less, and goods you buy from traders cost 200% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_blight_of_trade_lore_desc</Cell>
-        <Cell>Raiders block the roads, and famine takes root. A widow trades her husband’s sword—still notched from his final fight—for a rotting turnip, her daughter’s hungry eyes staring through the dark. </Cell>
+        <Cell>Raiders block the roads, and famine takes root. A widow trades her husband’s sword—still notched from his final fight—for a rotting turnip, her daughter’s hungry eyes staring through the dark.</Cell>
     </Row>
 
     <Row>
@@ -44,11 +44,11 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_reign_of_ruin_desc</Cell>
-        <Cell>Goods you sell are worth 85% less, and goods you buy from traders cost 200% more.</Cell>
+        <Cell>Goods you sell are worth 85% less, and goods you buy from traders cost 250% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_reign_of_ruin_lore_desc</Cell>
-        <Cell>War ravages all; a father sells his plow—his wife’s dowry—for a stale crust. He breaks it for his son, who coughs blood in the night, the wind rattling their empty barn. </Cell>
+        <Cell>War ravages all; a father sells his plow—his wife’s dowry—for a stale crust. He breaks it for his son, who coughs blood in the night, the wind rattling their empty barn.</Cell>
     </Row>
 
     <Row>
@@ -57,10 +57,23 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_fall_of_plenty_desc</Cell>
-        <Cell>Goods you sell are worth 95% less, and goods you buy from traders cost 300% more.</Cell>
+        <Cell>Goods you sell are worth 90% less, and goods you buy from traders cost 300% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_fall_of_plenty_lore_desc</Cell>
-        <Cell>The land is ash, and greed rules the ruins. A grandmother trades her home—where her children were born—for a scrap of bread, weeping as her grandson’s tiny grave lies untended outside. </Cell>
+        <Cell>The land is ash, and greed rules the ruins. A grandmother trades her home—where her children were born—for a scrap of bread, weeping as her grandson’s tiny grave lies untended outside.</Cell>
+    </Row>
+
+    <Row>
+        <Cell>perk_tougher_economy_echoes_of_desolation_perk_name</Cell>
+        <Cell>Tougher Economy: Echoes of Desolation</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_tougher_economy_echoes_of_desolation_desc</Cell>
+        <Cell>Goods you sell are worth 95% less, and goods you buy from traders cost 350% more.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_tougher_economy_echoes_of_desolation_lore_desc</Cell>
+        <Cell>The streets are silent, the markets abandoned. A mother kneels beside her son, too weak to wake, pressing a golden chalice into a merchant’s hand. He only shakes his head—there is nothing left to trade.</Cell>
     </Row>
 </Table>

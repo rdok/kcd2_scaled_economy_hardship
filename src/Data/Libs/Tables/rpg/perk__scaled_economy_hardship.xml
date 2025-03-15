@@ -8,9 +8,9 @@
         <perk
                 autolearnable="false"
                 stat_selector="3"
-                icon_id="perk_finest_goods"
+                icon_id="perk_dreaded_warrior"
                 perk_id="c0c0db5e-e001-405f-bbb5-01488eae60b2"
-                perk_name="Tougher Economy: Dawn of Want"
+                perk_name="Tougher Economy Dawn of Want"
                 perk_ui_desc="perk_tougher_economy_dawn_of_want_desc"
                 perk_ui_lore_desc="perk_tougher_economy_dawn_of_want_lore_desc"
                 perk_ui_name="perk_tougher_economy_dawn_of_want_perk_name"
@@ -19,9 +19,9 @@
         <perk
                 autolearnable="false"
                 stat_selector="3"
-                icon_id="perk_finest_goods"
+                icon_id="perk_dreaded_warrior"
                 perk_id="b2c3d4e5-f678-9012-bcde-f23456789012"
-                perk_name="Tougher Economy: Shadow of Scarcity"
+                perk_name="Tougher Economy Shadow of Scarcity"
                 perk_ui_desc="perk_tougher_economy_shadow_of_scarcity_desc"
                 perk_ui_lore_desc="perk_tougher_economy_shadow_of_scarcity_lore_desc"
                 perk_ui_name="perk_tougher_economy_shadow_of_scarcity_perk_name"
@@ -30,9 +30,9 @@
         <perk
                 autolearnable="false"
                 stat_selector="3"
-                icon_id="perk_finest_goods"
+                icon_id="perk_dreaded_warrior"
                 perk_id="34894718-7947-4ce6-9692-439f8ed923bc"
-                perk_name="Tougher Economy: Blight of Trade"
+                perk_name="Tougher Economy Blight of Trade"
                 perk_ui_desc="perk_tougher_economy_blight_of_trade_desc"
                 perk_ui_lore_desc="perk_tougher_economy_blight_of_trade_lore_desc"
                 perk_ui_name="perk_tougher_economy_blight_of_trade_perk_name"
@@ -41,9 +41,9 @@
         <perk
                 autolearnable="false"
                 stat_selector="3"
-                icon_id="perk_finest_goods"
+                icon_id="perk_dreaded_warrior"
                 perk_id="f3459ca0-ff2d-4c76-838f-95210773fc1f"
-                perk_name="Tougher Economy: Reign of Ruin"
+                perk_name="Tougher Economy Reign of Ruin"
                 perk_ui_desc="perk_tougher_economy_reign_of_ruin_desc"
                 perk_ui_lore_desc="perk_tougher_economy_reign_of_ruin_lore_desc"
                 perk_ui_name="perk_tougher_economy_reign_of_ruin_perk_name"
@@ -52,12 +52,23 @@
         <perk
                 autolearnable="false"
                 stat_selector="3"
-                icon_id="perk_finest_goods"
+                icon_id="perk_dreaded_warrior"
                 perk_id="f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff"
-                perk_name="Tougher Economy: Fall of Plenty"
+                perk_name="Tougher Economy Fall of Plenty"
                 perk_ui_desc="perk_tougher_economy_fall_of_plenty_desc"
                 perk_ui_lore_desc="perk_tougher_economy_fall_of_plenty_lore_desc"
                 perk_ui_name="perk_tougher_economy_fall_of_plenty_perk_name"
+                visibility="1"
+        />
+        <perk
+                autolearnable="false"
+                stat_selector="3"
+                icon_id="perk_dreaded_warrior"
+                perk_id="9e907773-734e-42f6-806f-ccddfb247ed3"
+                perk_name="Tougher Economy Echoes of Desolation"
+                perk_ui_desc="perk_tougher_economy_echoes_of_desolation_desc"
+                perk_ui_lore_desc="perk_tougher_economy_echoes_of_desolation_lore_desc"
+                perk_ui_name="perk_tougher_economy_echoes_of_desolation_perk_name"
                 visibility="1"
         />
     </perks>

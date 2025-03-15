@@ -26,12 +26,12 @@
 
         <perk_buff
                 perk_id="f2aa55d8-58b6-4f0f-a7b7-2e81a1e029ff"
-                buff_id="0a80fb5d-a7c8-453d-bc27-aa3665aef95d"
+                buff_id="f096f85e-59ec-4560-9d95-8c555acbb950"
         />
 
         <perk_buff
-                perk_id="ca7f6758-7218-4048-8492-33246df5948f"
-                buff_id="f096f85e-59ec-4560-9d95-8c555acbb950"
+                perk_id="9e907773-734e-42f6-806f-ccddfb247ed3"
+                buff_id="59a5e47c-736e-4368-acc5-8fb06a0d2bbc"
         />
 
     </perk_buffs>
