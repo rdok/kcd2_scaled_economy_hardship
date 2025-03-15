@@ -15,50 +15,22 @@ For Henry, the road to survival grows harsher with each passing day. What initia
 
 
 > These prices may vary if you have additional or fewer perks that further modify these values. However, the pattern remains similar.
-
 ### Common Longsword
-*Self Forged, Highest Rank, 100% Condition*
+*Self Forged, Rank 4, 100% Condition*
 
-- **Base Game** → Selling: 331.2  | Buying: 927     | BMA: 0.0 | SMA: 0.0
-- **Level ≤5**  → Selling: 165.6 (-50%)  | Buying: 1390.5 (+50%)  | BMA: -0.5 | SMA: +0.5
-- **Level ≤10** → Selling: 132.48 (-60%) | Buying: 1854 (+100%)   | BMA: -0.6 | SMA: +1.0
-- **Level ≤15** → Selling: 99.36 (-70%)  | Buying: 2317.5 (+150%) | BMA: -0.7 | SMA: +1.5
-- **Level ≤20** → Selling: 66.24 (-80%)  | Buying: 2781 (+200%)   | BMA: -0.8 | SMA: +2.0
-- **Level ≤30** → Selling: 33.12 (-90%)  | Buying: 3244.5 (+250%) | BMA: -0.9 | SMA: +2.5
+```text
+| Level     | Selling Price  | Buying Price   | BMA    | SMA    |
+|-----------|----------------|----------------|--------|--------|
+| Base Game | 331.2          | 927            | 0.0    | 0.0    |
+| 1 - 5     | 165.6  (-50%)  | 1390.5 (+50%)  | -0.5   | +0.5   |
+| 6 - 10    | 82.8   (-75%)  | 2317.5 (+150%) | -0.75  | +1.5   |
+| 11 - 15   | 66.24  (-80%)  | 2781   (+200%) | -0.8   | +2.0   |
+| 16 - 20   | 49.68  (-85%)  | 3244.5 (+250%) | -0.85  | +2.5   |
+| 21 - 25   | 33.12  (-90%)  | 3708   (+300%) | -0.9   | +3.0   |
+| 26 - 30   | 16.56  (-95%)  | 4171.5 (+350%) | -0.95  | +3.5   |
+```
 
----
-
-### Cooked Chicken
-
-- **Base Game** → Selling: 2.3  | Buying: 8.4 | BMA: 0.0 | SMA: 0.0
-- **Level ≤5**  → Selling: 1.15 (-50%) | Buying: 12.6 (+50%) | BMA: -0.5 | SMA: +0.5
-- **Level ≤10** → Selling: 0.92 (-60%) | Buying: 16.8 (+100%) | BMA: -0.6 | SMA: +1.0
-- **Level ≤15** → Selling: 0.69 (-70%) | Buying: 21 (+150%) | BMA: -0.7 | SMA: +1.5
-- **Level ≤20** → Selling: 0.46 (-80%) | Buying: 25.2 (+200%) | BMA: -0.8 | SMA: +2.0
-- **Level ≤30** → Selling: 0.23 (-90%) | Buying: 29.4 (+250%) | BMA: -0.9 | SMA: +2.5
-
----
-
-### Henry’s Saviour Schnapps
-
-- **Base Game** → Selling: 11.1        | Buying: 46.7 | BMA: 0.0 | SMA: 0.0
-- **Level ≤5** → Selling: 5.55 (-50%)  | Buying: 70.05 (+50%) | BMA: -0.5 | SMA: +0.5
-- **Level ≤10** → Selling: 4.44 (-60%) | Buying: 93.4 (+100%) | BMA: -0.6 | SMA: +1.0
-- **Level ≤15** → Selling: 3.33 (-70%) | Buying: 116.75 (+150%) | BMA: -0.7 | SMA: +1.5
-- **Level ≤20** → Selling: 2.22 (-80%) | Buying: 140.1 (+200%) | BMA: -0.8 | SMA: +2.0
-- **Level ≤30** → Selling: 1.11 (-90%) | Buying: 163.45 (+250%) | BMA: -0.9 | SMA: +2.5
-
----
-
-### Hourglass Gauntlets
-Level 3, 100% Condition, Bootstrapped
-
-- **Base Game** → Selling: 211.5        | Buying: 1128.1 | BMA: 0.0 | SMA: 0.0
-- **Level ≤5** → Selling: 105.75 (-50%) | Buying: 1692.15 (+50%) | BMA: -0.5 | SMA: +0.5
-- **Level ≤10** → Selling: 84.6 (-60%)  | Buying: 2256.2 (+100%) | BMA: -0.6 | SMA: +1.0
-- **Level ≤15** → Selling: 63.45 (-70%) | Buying: 2820.25 (+150%) | BMA: -0.7 | SMA: +1.5
-- **Level ≤20** → Selling: 42.3 (-80%)  | Buying: 3384.3 (+200%) | BMA: -0.8 | SMA: +2.0
-- **Level ≤30** → Selling: 21.15 (-90%) | Buying: 3948.35 (+250%) | BMA: -0.9 | SMA: +2.5
+*Levels 1-5 can be useful when using mods that make you start from level 1 instead of the default's game of level 5*
 
 
 ***
