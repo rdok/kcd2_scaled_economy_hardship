@@ -1,5 +1,8 @@
 ## Changelog
 
+#### v1.2.0 19-Mar-25
+- feat: A bit less harsh economy based on other player's feedback.
+
 #### v1.1.0 15-Mar-25
 
 - feat: Add dynamic price scaling for levels 26-30, with -95% Selling Price and +300% Buying Price.

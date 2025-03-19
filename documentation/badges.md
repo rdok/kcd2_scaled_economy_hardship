@@ -1,0 +1,1 @@
+[![nexus-mods-page](https://img.shields.io/badge/Mod-Scaled%20Economy%20Hardship%20-bf4848?style=flat-square–=nexusmods)](https://www.nexusmods.com/kingdomcomedeliverance2/mods/1326) [![github-repository](https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github)](https://github.com/rdok/kcd2_scaled_economy_hardship) 

@@ -1,28 +1,39 @@
-const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-function bbcodenm() {
-  const rootDir = path.join(__dirname, "../..");
+const rootDir = path.join(__dirname, "../..");
+const documentationDir = path.join(rootDir, "documentation");
+
+function bbcode() {
   const readmeFile = path.join(rootDir, "readme.md");
-  const readmeFileBbcodenm = path.join(
+  const nexusModsReadmeBbcode = path.join(
     rootDir,
     "documentation",
-    "readme.bbcodenm",
+    "readme_nexus_mods.bbcode",
   );
-  execSync(`markdown_to_bbcodenm -i ${readmeFile} > ${readmeFileBbcodenm}`);
+  execSync(`markdown_to_bbcodenm -i ${readmeFile} > ${nexusModsReadmeBbcode}`);
 
-  const faqFile = path.join(rootDir, "documentation", "faq.md");
-  const faqFileBbcodenm = path.join(rootDir, "documentation", "faq.bbcodenm");
-  execSync(`markdown_to_bbcodenm -i ${faqFile} > ${faqFileBbcodenm}`);
+  const faqFile = path.join(documentationDir, "faq.md");
+  const faqFileBbcode = path.join(documentationDir, "faq.bbcode");
+  execSync(`markdown_to_bbcodenm -i ${faqFile} > ${faqFileBbcode}`);
 
-  const ideasFile = path.join(rootDir, "documentation", "ideas.md");
-  const ideasFileBbcodenm = path.join(
-    rootDir,
-    "documentation",
-    "ideas.bbcodenm",
+  const ideasFile = path.join(documentationDir, "ideas.md");
+  const ideasFileBbcode = path.join(documentationDir, "ideas.bbcode");
+  execSync(`markdown_to_bbcodenm -i ${ideasFile} > ${ideasFileBbcode}`);
+
+  const steamReadmeFile = path.join(
+    documentationDir,
+    "readme_steam_workshop.md",
   );
-  execSync(`markdown_to_bbcodenm -i ${ideasFile} > ${ideasFileBbcodenm}`);
+  const steamReadmeFileBbcode = path.join(
+    documentationDir,
+    "readme_steam_workshop.bbcode",
+  );
+  execSync(
+    `markdown_to_bbcodesteam -i ${steamReadmeFile} -o ${steamReadmeFileBbcode}`,
+  );
 }
 
-module.exports = bbcodenm;
+module.exports = bbcode;
+
+bbcode();

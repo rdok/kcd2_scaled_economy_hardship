@@ -2,13 +2,13 @@ const fs = require("fs");
 const path = require("path");
 
 function stripContent(content) {
-  return content
-    .replace(/(https?:\/\/[^\s]+|www\.[^\s]+)/gi, "")
-    .replace(/!\[.*?\]\(https?:\/\/[^\s]+\)/gi, "")
-    .replace(/\[!\[nexus-mods-page\]\(/gi, "")
-    .replace(/\[!\[github-repository\]\(/gi, "")
-    .replace(/\[!\[Showcase\]\(/gi, "")
-    .replace(/^##\s*Showcase\s*(\r\n|\n|\r)*\s*/gim, "");
+  return content;
+  // .replace(/(https?:\/\/[^\s]+|www\.[^\s]+)/gi, "")
+  // .replace(/!\[.*?\]\(https?:\/\/[^\s]+\)/gi, "")
+  // .replace(/\[!\[nexus-mods-page\]\(/gi, "")
+  // .replace(/\[!\[github-repository\]\(/gi, "")
+  // .replace(/\[!\[Showcase\]\(/gi, "")
+  // .replace(/^##.*Showcase\s*(\r\n|\n|\r)*\s*/gim, "");
 }
 
 function formatSections(content) {
