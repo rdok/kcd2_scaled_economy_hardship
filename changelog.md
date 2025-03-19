@@ -1,7 +1,7 @@
 ## Changelog
 
 #### v1.2.0 19-Mar-25
-- feat: A bit less harsh economy based on other player's feedback.
+- feat: Adjusted economy scaling based on player feedback, easing the curve with sell prices dropping from 50% at levels 1-5 to 20% at levels 26-30, and buy prices rising from 100% at levels 1-5 to 200% at levels 26-30, relative to Base Game.
 
 #### v1.1.0 15-Mar-25
 
