@@ -1,5 +1,8 @@
 # Changelog
 
+### v1.2.1 19-Mar-25
+- fix: Refresh localizations.
+
 ### v1.2.0 19-Mar-25
 - feat: Adjusted economy scaling based on player feedback, easing the curve with sell prices dropping from 50% at levels 1-5 to 20% at levels 26-30, and buy prices rising from 100% at levels 1-5 to 200% at levels 26-30, relative to Base Game.
 
