@@ -5,7 +5,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_dawn_of_want_desc</Cell>
-        <Cell>Goods you sell are worth 50% less, and goods you buy from traders cost 50% more.</Cell>
+        <Cell>Goods you sell are worth 50% less, and goods you buy from traders cost 100% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_dawn_of_want_lore_desc</Cell>
@@ -18,7 +18,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_shadow_of_scarcity_desc</Cell>
-        <Cell>Goods you sell are worth 75% less, and goods you buy from traders cost 150% more.</Cell>
+        <Cell>Goods you sell are worth 60% less, and goods you buy from traders cost 120% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_shadow_of_scarcity_lore_desc</Cell>
@@ -31,7 +31,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_blight_of_trade_desc</Cell>
-        <Cell>Goods you sell are worth 80% less, and goods you buy from traders cost 200% more.</Cell>
+        <Cell>Goods you sell are worth 65% less, and goods you buy from traders cost 140% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_blight_of_trade_lore_desc</Cell>
@@ -44,7 +44,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_reign_of_ruin_desc</Cell>
-        <Cell>Goods you sell are worth 85% less, and goods you buy from traders cost 250% more.</Cell>
+        <Cell>Goods you sell are worth 70% less, and goods you buy from traders cost 160% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_reign_of_ruin_lore_desc</Cell>
@@ -57,7 +57,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_fall_of_plenty_desc</Cell>
-        <Cell>Goods you sell are worth 90% less, and goods you buy from traders cost 300% more.</Cell>
+        <Cell>Goods you sell are worth 75% less, and goods you buy from traders cost 180% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_fall_of_plenty_lore_desc</Cell>
@@ -70,7 +70,7 @@
     </Row>
     <Row>
         <Cell>perk_tougher_economy_echoes_of_desolation_desc</Cell>
-        <Cell>Goods you sell are worth 95% less, and goods you buy from traders cost 350% more.</Cell>
+        <Cell>Goods you sell are worth 80% less, and goods you buy from traders cost 200% more.</Cell>
     </Row>
     <Row>
         <Cell>perk_tougher_economy_echoes_of_desolation_lore_desc</Cell>
